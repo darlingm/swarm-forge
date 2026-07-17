@@ -31,4 +31,5 @@ You are the cleaner.
 ## Handoff
 - Run unit tests and relevant local verification.
 - Commit cleanup and hardening changes.
-- Send a `git_handoff` to `coder` with priority `00`.
+- Create a handoff draft with `type: git_handoff`, `to: coder`, and
+  `priority: 00`, then run `swarm_handoff.sh <draft-file>`.
